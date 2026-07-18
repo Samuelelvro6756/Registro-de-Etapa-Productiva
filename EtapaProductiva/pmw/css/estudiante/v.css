@@ -1,0 +1,176 @@
+.c {
+    display: grid;
+    border-radius: 25px;
+    grid-template-areas:
+      'top-left top-right'
+      'bottom bottom';
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    height: auto;  
+ }
+  
+  
+  .info-Est {
+      grid-area: top-left;
+      overflow-y: auto;
+      margin: 7px;
+      border-radius: 15px;
+      box-shadow: 0 0 7px #222;
+      background-color: #f0f0f0;
+      height: 60vh;
+    }
+    
+    .citas {
+   
+    height: 60vh;
+    grid-area: top-right;
+    margin: 7px;
+    border-radius: 15px;
+    box-shadow: 0 0 7px #222;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  .etapa {
+    grid-area: bottom;
+    margin: 7px;
+    border-radius: 15px;
+    box-shadow: 0 0 7px #222;
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+ 
+
+  h2  {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: #767676;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+.detalles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 80%;
+}
+.detalles li{
+  list-style: none;
+  text-transform: capitalize;
+}
+h3{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: red;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+a{
+  margin: 3px;
+}
+
+.etapa ul{
+  list-style: none;
+}
+
+.modalidad{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+}
+.modalidad a{
+  text-transform: capitalize;
+  color: black;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.etapa ul {
+  width: 50%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  list-style: none;
+}
+
+.etapa ul li {
+  border-radius: 10px;
+
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.etapa ul li:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/*CSS CITAS*/
+
+
+.citas .cita-info{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+  overflow: auto;
+  box-sizing: border-box; 
+}
+
+.citas .cita-info ul {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  list-style: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+.citas .cita-info ul li {
+  /* flex: 1; */
+  box-sizing: border-box; 
+  text-align: center;
+}
+
+.citas .cita-info ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.crear a{
+background-color: blue;
+border-radius: 5px;
+padding: 5px 90px;
+  color: #f4f4f4;
+  
+}

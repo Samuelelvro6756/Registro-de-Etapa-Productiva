@@ -1,0 +1,12 @@
+
+.buscador{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    width: 300px;
+    padding: 8px;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    border-color: #89aeff;
+  }

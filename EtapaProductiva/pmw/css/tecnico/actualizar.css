@@ -1,0 +1,48 @@
+*{
+    text-decoration: none;
+}
+
+.formulario_estudiantes{
+    width: 600px;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 75px;
+    box-shadow: 0 0 7px #222;
+    border-radius: 25px;
+    padding: 35px;
+    background-color: white;
+    }
+  
+  .estilo{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    border-color: #89aeff;
+    }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    }
+  
+  .formulario_estudiantes button{
+    width: 100%;
+    border: none;
+    padding: 18px;
+    margin: 16px 0px;
+    background: #3b70e0;
+    transition: .4s;
+    color: white; 
+    border-radius: 15px;
+    transition: 0.8s;
+    cursor: pointer;
+  }
+  
+  .formulario_estudiantes button:hover{
+    background-color: rgb(153, 205, 252);
+  }
+  

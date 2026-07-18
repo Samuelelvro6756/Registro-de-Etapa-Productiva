@@ -1,0 +1,54 @@
+.estudiantes {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.serch {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3); /* fondo blanco con opacidad */
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-left: 4%;
+  width: fit-content;
+  gap: 8px; /* espacio entre lupa e input */
+}
+
+.serch i {
+  color: #333;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+  
+th, td {
+  /* border: 8px solid green; */
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
