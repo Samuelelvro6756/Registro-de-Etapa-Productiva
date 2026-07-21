@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.png" width="100%" alt="Banner Etapa Productiva">
+  <img src="docs/Banner.png" width="100%" alt="Banner Etapa Productiva">
 </p>
 
 <h1 align="center">Etapa Productiva</h1>
