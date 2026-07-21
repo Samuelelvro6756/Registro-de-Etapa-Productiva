@@ -1,36 +1,238 @@
-# Documentación del Proyecto: Etapa Productiva
+<p align="center">
+  <img src="docs/banner.png" width="100%" alt="Banner Etapa Productiva">
+</p>
 
-## Descripción General
-El proyecto **Etapa Productiva** es una aplicación web orientada a la gestión y seguimiento de las prácticas profesionales o etapa productiva de estudiantes. De acuerdo con los recursos gráficos, parece estar desarrollado para una institución educativa ("Politécnico Master Web"). La plataforma permite administrar la información de los aprendices, gestionar sus diferentes modalidades de práctica (pasantías, contratos de aprendizaje), y registrar tutorías y evaluaciones.
+<h1 align="center">Etapa Productiva</h1>
 
-## Lenguajes y Tecnologías
-Basado en la estructura de directorios y archivos extraídos, el proyecto está construido con el siguiente *stack* tecnológico:
+<p align="center">
+<b>Aplicativo Web para la Gestión y Control de la Etapa Productiva de Estudiantes</b>
+</p>
 
-*   **Backend:** PHP. Se evidencia a través del archivo de configuración `db.php`, encargado de gestionar la lógica del servidor y la conexión a los datos.
-*   **Base de Datos:** MySQL / MariaDB. El archivo `etapa.sql` contiene el esquema, las tablas y probablemente los datos iniciales necesarios para levantar el modelo relacional del sistema.
-*   **Frontend (Estilos):** CSS3. El proyecto tiene una arquitectura modular para el diseño, separando las hojas de estilo según la vista o componente (ej. `header.css`, módulos de estudiantes, citas y buscador).
-*   **Frontend (Estructura e Interacción):** HTML y JavaScript. Aunque no se listan explícitamente en el volcado, son tecnologías implícitas necesarias para estructurar las vistas y manejar la interactividad del lado del cliente.
+<p align="center">
+Sistema web desarrollado para administrar estudiantes, pasantías, contratos de aprendizaje, asesorías y evaluaciones desde una única plataforma.
+</p>
 
-## Módulos y Funcionamiento
-El sistema se divide en varios módulos clave, cada uno con interfaces dedicadas:
+<p align="center">
+<img src="https://img.shields.io/badge/PHP-8.1-777BB4?style=for-the-badge&logo=php&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/Inno_Setup-Installer-blue?style=for-the-badge">
+</p>
 
-### 1. Gestión de Estudiantes (`/css/estudiante/`)
-Módulo encargado del CRUD (Crear, Leer, Actualizar, Borrar) de los alumnos que se encuentran en su etapa práctica.
-*   **Creación:** Registro de nuevos perfiles (`crearE.css`).
-*   **Actualización:** Modificación de datos existentes (`actualizarE.css`).
-*   **Consulta:** Paneles para ver la información detallada de cada estudiante (`conEstu.css`, `estudiante.css`).
+<br>
 
-### 2. Control de Citas y Procesos (`/css/citas/`)
-Este es el núcleo operativo de la aplicación. Permite hacer un seguimiento de las diferentes etapas y modalidades en las que participa el estudiante:
-*   **Pasantías:** Gestión de prácticas corporativas (`pasantia.css`, `pasantiaA.css`).
-*   **Contratos:** Seguimiento administrativo de contratos de aprendizaje (`contrato.css`, `contratoA.css`).
-*   **Asesorías:** Registro de reuniones, tutorías o seguimientos entre el docente/asesor y el estudiante (`asesoria.css`, `asesoriaA.css`).
-*   **Evaluación:** Interfaz para calificar el desempeño del alumno al finalizar o durante su etapa (`evaluacion.css`).
+# 📑 Índice
 
-### 3. Componentes Transversales
-*   **Buscador (`/css/buscador/`):** Herramienta para localizar rápidamente estudiantes, contratos o procesos dentro del sistema (`buscador.css`).
-*   **Interfaz y Branding (`/css/imagenes/`):** Recursos visuales como fondos (`bg.jpg`), íconos (`lapiz.jpg`) y la identidad gráfica de la institución (`logo_politecnicomasterweb.png`).
-*   **Configuración (`/config/`):** Mantiene separada la capa de conexión y bases de datos por seguridad y buenas prácticas.
+- 📖 Descripción
+- 📦 Contenido del Repositorio
+- ✨ Características
+- 🛠️ Tecnologías
+- 🧩 Módulos
+- 🚀 Instalación
+- 🔐 Credenciales
+- 📸 Capturas
+- 📊 Arquitectura
+- 📈 Estado
+- 💡 Mejoras Futuras
+- 👨‍💻 Autor
 
+<br>
+
+# 📖 Descripción
+
+**Etapa Productiva** es una plataforma web desarrollada en **PHP** y **MySQL** para gestionar el proceso de prácticas profesionales de estudiantes. Permite administrar aprendices, controlar modalidades de práctica, registrar asesorías, realizar evaluaciones y consultar la información de forma centralizada.
+
+<br>
+
+# 📦 Contenido del Repositorio
+
+| Archivo | Descripción |
+|---------|-------------|
+| 📁 `EtapaProductiva/` | Código fuente del sistema |
+| 📦 `Instalador_EtapaProductiva.exe` | Instalador automático desarrollado con Inno Setup |
+| 📕 `Manual de Instalación.pdf` | Manual de instalación y configuración |
+| 📄 `README.md` | Documentación del proyecto |
+
+<br>
+
+# ✨ Características
+
+- 👨‍🎓 Gestión de estudiantes.
+- 🏢 Gestión de pasantías.
+- 📄 Administración de contratos.
+- 📅 Registro de asesorías.
+- 📝 Evaluaciones.
+- 🔍 Buscador integrado.
+- 🗃️ Base de datos MySQL.
+- 📦 Instalador automático.
+
+<br>
+
+# 🛠️ Tecnologías
+
+| Categoría | Tecnología |
+|-----------|------------|
+| Backend | PHP |
+| Frontend | HTML5, CSS3, JavaScript |
+| Base de Datos | MySQL |
+| Servidor | Apache (XAMPP) |
+| Instalador | Inno Setup |
+
+<br>
+
+# 🧩 Módulos
+
+### 👨‍🎓 Gestión de Estudiantes
+CRUD completo para el registro, consulta, actualización y eliminación de estudiantes.
+
+### 🏢 Pasantías
+Administración y seguimiento de las prácticas empresariales.
+
+### 📄 Contratos
+Gestión de contratos de aprendizaje.
+
+### 📅 Asesorías
+Registro del acompañamiento académico.
+
+### 📝 Evaluaciones
+Evaluación del desempeño durante la etapa productiva.
+
+### 🔍 Buscador
+Consulta rápida de registros.
+
+<br>
+
+# 🚀 Instalación
+
+## ⚡ Instalación rápida (Recomendada)
+
+Ejecute:
+
+```text
+Instalador_EtapaProductiva.exe
+```
+
+Incluye:
+
+- Configuración inicial.
+- Copia de archivos.
+- Preparación del sistema.
+
+## 📘 Manual de instalación
+
+Consulte:
+
+```text
+Manual de Instalación.pdf
+```
+
+## 👨‍💻 Instalación manual
+
+1. Clonar el repositorio.
+2. Importar `config/etapa.sql`.
+3. Configurar `config/db.php`.
+4. Ejecutar Apache y MySQL.
+
+---
+
+# 🔐 Credenciales
+
+```text
 Usuario: AdminPMW
-contraseña: pmw123
+Contraseña: pmw123
+```
+
+<br>
+
+# 📸 Capturas
+
+<p align="center">
+<img src="docs/login.png" width="45%">
+<img src="docs/dashboard.png" width="45%">
+</p>
+
+<p align="center">
+<img src="docs/estudiantes.png" width="45%">
+<img src="docs/tecnico.png" width="45%">
+</p>
+
+<br>
+
+# 📊 Arquitectura
+
+```text
+Repositorio
+│
+├── EtapaProductiva/
+│   ├── config/
+│   ├── css/
+│   ├── js/
+│   ├── img/
+│   └── ...
+│
+├── Instalador_EtapaProductiva.exe
+├── Manual de Instalación.pdf
+├── README.md
+└── .gitattributes
+```
+
+```mermaid
+flowchart TD
+A[Login] --> B[Dashboard]
+B --> C[Estudiantes]
+B --> D[Pasantías]
+B --> E[Contratos]
+B --> F[Asesorías]
+B --> G[Evaluaciones]
+B --> H[Buscador]
+```
+
+<br>
+
+# 📈 Estado del Proyecto
+
+| Funcionalidad | Estado |
+|---------------|:------:|
+| Gestión de estudiantes | ✅ |
+| Pasantías | ✅ |
+| Contratos | ✅ |
+| Asesorías | ✅ |
+| Evaluaciones | ✅ |
+| Instalador | ✅ |
+| Manual PDF | ✅ |
+
+🟢 **Proyecto Finalizado**
+
+<br>
+
+# 💡 Mejoras Futuras
+
+- Exportación de reportes PDF.
+- Dashboard con estadísticas.
+- Sistema de roles y permisos.
+- Diseño responsive.
+
+<br>
+
+# 👨‍💻 Autor
+
+**Samuel Durán Cardenas**
+
+Desarrollador en Desarrollo
+
+**Tecnologías favoritas**
+
+- 💻 PHP
+- ⚡ JavaScript
+- 🗄️ MySQL
+- 🎨 HTML & CSS
+
+<br>
+
+<p align="center">
+<b>⭐ Si este proyecto fue útil, considera dejar una estrella en el repositorio.</b>
+<br><br>
+Desarrollado con ❤️ por <b>Samuel Durán</b>
+</p>
